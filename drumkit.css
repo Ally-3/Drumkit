@@ -1,0 +1,25 @@
+*{
+  text-align: center;
+  background-color: rgb(255, 220, 240);
+}
+body {
+  margin-left:auto;
+  margin-right:auto;
+  width: 960px;
+      /* hold everything together, centered on the page. */
+}
+
+h2 {
+  font-size: 5em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 250px;
+}
+
+p {
+  color: brown;
+}
