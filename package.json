@@ -1,0 +1,11 @@
+{
+    "name": "drumkit",
+    "version": "1.0.0",
+    "description": "DrumKit",
+    "scripts": {
+      "build": "echo 'No build steps required'"
+    },
+    "keywords": [],
+    "author": "Aleasa",
+    "license": "MIT"
+  }
