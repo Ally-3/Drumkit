@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 3 - JS DOM Projects</title>
-    <link rel="stylesheet" href="./drumkit.css"></link>
+    <link rel="stylesheet" href="./drumkit.css">
 </head>
 <body>
     <div>
         <h2>DrumKit</h2>
+    </div>
+    <div class="container">
         <div class="flex">
-            <div> <h3>t</h3> <p>hihat</p> </div>
-            <div> <h3>y</h3> <p>openhat</p> </div>
-            <div> <h3>u</h3> <p>ride</p> </div>
+            <div id="hihat" onclick="playSound('t')"> <h3>t</h3> <p>hihat</p> </div>
+            <div id="openhat" onclick="playSound('y')"> <h3>y</h3> <p>openhat</p> </div>
+            <div id="ride" onclick="playSound('u')"> <h3>u</h3> <p>ride</p> </div>
         </div>
         <div class="flex">
-            <div> <h3>f</h3> <p>snare</p> </div>
-            <div> <h3>g</h3> <p>boom</p> </div>
-            <div> <h3>h</h3> <p>kick</p> </div>
-            <div> <h3>j</h3> <p>tom</p> </div>
+            <div id="snare" onclick="playSound('f')"> <h3>f</h3> <p>snare</p> </div>
+            <div id="boom" onclick="playSound('g')"> <h3>g</h3> <p>boom</p> </div>
+            <div id="kick" onclick="playSound('h')"> <h3>h</h3> <p>kick</p> </div>
+            <div id="tom" onclick="playSound('j')"> <h3>j</h3> <p>tom</p> </div>
         </div>
     </div>
-<script src="drumkit.js"></script>
+    <script src="drumkit.js"></script>
 </body>
 </html>

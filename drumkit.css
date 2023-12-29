@@ -2,22 +2,36 @@
   text-align: center;
   background-color: rgb(255, 220, 240);
 }
-body {
-  margin-left:auto;
-  margin-right:auto;
-  width: 960px;
-      /* hold everything together, centered on the page. */
+
+html {
+  margin: 0;
+  width: auto;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
 }
 
 h2 {
   font-size: 5em;
+  width: 100%;
 }
 
 .flex {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 0px 250px;
+  padding: 0px 50px;
+  width: 100%;
 }
 
 p {
